@@ -145,15 +145,6 @@
       }
     },
     {
-      "identity" : "starknet.swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/software-mansion/starknet.swift",
-      "state" : {
-        "branch" : "main",
-        "revision" : "a8e27946b1e10fefb5f3fcf35a2cd686559550e5"
-      }
-    },
-    {
       "identity" : "swift-case-paths",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-case-paths",

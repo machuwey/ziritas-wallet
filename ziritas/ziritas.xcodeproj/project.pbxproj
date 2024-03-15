@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		970F185A2B7CF6BA00219C46 /* colorextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970F18592B7CF6BA00219C46 /* colorextension.swift */; };
+		97170E7F2BA4FA5900665F20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97170E7E2BA4FA5900665F20 /* GoogleService-Info.plist */; };
 		97630D7A2B7BFA5200B08F1C /* ziritas.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 97C666A22B7BD5B6002AE184 /* ziritas.entitlements */; };
 		978E63122BA324040043CC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978E63112BA324040043CC2B /* Assets.xcassets */; };
 		97BCDE182B7CC24C0084FE0B /* SessionMoaFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCDE172B7CC24C0084FE0B /* SessionMoaFeature.swift */; };
 		97C6669D2B7BD5B5002AE184 /* ziritasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6669C2B7BD5B5002AE184 /* ziritasApp.swift */; };
 		97C6669F2B7BD5B5002AE184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6669E2B7BD5B5002AE184 /* ContentView.swift */; };
 		97C666A52B7BD5B6002AE184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C666A42B7BD5B6002AE184 /* Preview Assets.xcassets */; };
-		97C666AD2B7BD61C002AE184 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97C666AC2B7BD61B002AE184 /* GoogleService-Info.plist */; };
 		97C666B62B7BD6E2002AE184 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C666AE2B7BD6E1002AE184 /* Settings.swift */; };
 		97C666B72B7BD6E2002AE184 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C666AF2B7BD6E1002AE184 /* HomeView.swift */; };
 		97C666B82B7BD6E2002AE184 /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C666B02B7BD6E1002AE184 /* ContentViewViewModel.swift */; };
@@ -78,6 +78,8 @@
 
 /* Begin PBXFileReference section */
 		970F18592B7CF6BA00219C46 /* colorextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorextension.swift; sourceTree = "<group>"; };
+		97170E7E2BA4FA5900665F20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97170E822BA4FBDB00665F20 /* starknet.swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = starknet.swift; path = ../../starknet.swift; sourceTree = "<group>"; };
 		978E63112BA324040043CC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97BCDE172B7CC24C0084FE0B /* SessionMoaFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMoaFeature.swift; sourceTree = "<group>"; };
 		97C666992B7BD5B5002AE184 /* ziritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ziritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +87,6 @@
 		97C6669E2B7BD5B5002AE184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97C666A22B7BD5B6002AE184 /* ziritas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ziritas.entitlements; sourceTree = "<group>"; };
 		97C666A42B7BD5B6002AE184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		97C666AB2B7BD5F7002AE184 /* starknet.swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = starknet.swift; path = ../starknet.swift; sourceTree = "<group>"; };
-		97C666AC2B7BD61B002AE184 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97C666AE2B7BD6E1002AE184 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		97C666AF2B7BD6E1002AE184 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		97C666B02B7BD6E1002AE184 /* ContentViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 		97C666902B7BD5B5002AE184 = {
 			isa = PBXGroup;
 			children = (
-				97C666AB2B7BD5F7002AE184 /* starknet.swift */,
+				97170E822BA4FBDB00665F20 /* starknet.swift */,
 				97C6669B2B7BD5B5002AE184 /* ziritas */,
 				97C6669A2B7BD5B5002AE184 /* Products */,
 			);
@@ -198,8 +198,8 @@
 				97F0F19C2B7BDDCE0025CFF1 /* Auth */,
 				97C666A22B7BD5B6002AE184 /* ziritas.entitlements */,
 				97C666D02B7BD711002AE184 /* Tokens.json */,
+				97170E7E2BA4FA5900665F20 /* GoogleService-Info.plist */,
 				978E63112BA324040043CC2B /* Assets.xcassets */,
-				97C666AC2B7BD61B002AE184 /* GoogleService-Info.plist */,
 				97C666A32B7BD5B6002AE184 /* Preview Content */,
 			);
 			path = ziritas;
@@ -389,9 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97630D7A2B7BFA5200B08F1C /* ziritas.entitlements in Resources */,
+				97170E7F2BA4FA5900665F20 /* GoogleService-Info.plist in Resources */,
 				97C666A52B7BD5B6002AE184 /* Preview Assets.xcassets in Resources */,
 				97C666D12B7BD712002AE184 /* Tokens.json in Resources */,
-				97C666AD2B7BD61C002AE184 /* GoogleService-Info.plist in Resources */,
 				978E63122BA324040043CC2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
