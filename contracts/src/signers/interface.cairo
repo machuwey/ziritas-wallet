@@ -93,14 +93,14 @@ trait IMoaSignManagementExternal<TState> {
     fn get_signers(self: @TState) -> GetMoaSignersResponse;
     fn is_signer(self: @TState, signer: MoaSigner) -> bool;
     fn get_signers_len(self: @TState) -> usize;
+    fn getVoteWeightFor(self: @TState, signer: ContractAddress) -> u32;
     fn add_external_signers(
-        ref self: TState, signers: Array<(ContractAddress, felt252)>, threshold: usize
-    );
+        ref self: TState, signers: Array<(ContractAddress, felt252, u32)>, threshold: usize);
     fn remove_external_signers(ref self: TState, signer_guids: Span<felt252>, threshold: usize);
 }
 
 #[starknet::interface]
 trait IMoaSignManagementInternal<TState> {
     fn _update_threshold(ref self: TState, threshold: usize, num_signers: usize);
-    fn _add_signers(ref self: TState, signers: Array<(ContractAddress, felt252)>, threshold: usize);
+    fn _add_signers(ref self: TState, signers: Array<(ContractAddress, felt252, u32)>, threshold: usize);
 }
