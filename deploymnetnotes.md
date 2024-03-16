@@ -1,1 +1,1 @@
-starkli declare ./target/dev/braavos_account_BraavosMoaAccount.contract_class.json --account ~/.starkli-wallets/deployer/sepolia_2.json --keystore ~/.starkli-wallets/deployer/sepolia_keystore_2.json --rpc https://starknet-sepolia.blastapi.io/fec79bb2-ce39-4a58-8668-a96ce919142e/rpc/v0_7
+starkli declare ./target/dev/braavos_account_BraavosMoaAccount.contract_class.json --account ~/.starkli-wallets/deployer/sepolia_1.json --keystore ~/.starkli-wallets/deployer/sepolia_keystore_1.json --rpc https://starknet-sepolia.blastapi.io/fec79bb2-ce39-4a58-8668-a96ce919142e/rpc/v0_6

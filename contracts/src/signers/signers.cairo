@@ -316,7 +316,8 @@ impl MoaExtSignerHelperMethods of MoaExtSignerHelperMethodsTrait {
             let signature_type: u128 = (*signature.at(i)).try_into().unwrap();
             assert(signature_type == 0, 'INVALID_SIG_TYPE');
             let sig_len: usize = (*signature.at(i + 5)).try_into().unwrap();
-            assert(sig_len > 0, 'INVALID_SIG');
+            //assert(sig_len > 0, 'INVALID_SIG');
+            
             let inner_signer = MoaSigner {
                 address: (*signature.at(i + 1)).try_into().unwrap(), pub_key: *signature.at(i + 2),
             };

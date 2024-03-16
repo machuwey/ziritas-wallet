@@ -35,6 +35,13 @@ struct CreateMoaView: View {
     let contentViewModel: ContentViewViewModel
     let colorHexCodeAssigned = String(format: "#%06X", Int.random(in: 0x000000...0xFFFFFF))
     
+    @State private var dummyParticipant = Participant(
+            id: "0x1234567890abcdef",
+            publicKey: Felt(fromHex: "0x1234567890abcdef")!,
+            username: "DummyUser",
+            colorHexCode: "#FF0000"
+        )
+    
     init(accountStore: StoreOf<AccountFeature>, sessionIdToJoin: String? = nil, onDismiss: ((MoaResult) -> Void)? = nil) {
         self.accountStore = accountStore
         self.sessionIdJoin = sessionIdToJoin
@@ -119,6 +126,20 @@ struct CreateMoaView: View {
                     }
                     Spacer()
                     if moaSessionStore.proposerAddress == accountStore.address?.toHex() {
+                        
+                        
+                        Button(action: {
+                                           moaSessionStore.send(.addParticipant(dummyParticipant))
+                                       }) {
+                                           Text("Add Dummy Participant")
+                                               .padding()
+                                               .background(Color.gray)
+                                               .foregroundColor(.white)
+                                               .cornerRadius(10)
+                                       }
+                                    
+                                       
+                        
                         Button(action: {
                             ///
                             Task {

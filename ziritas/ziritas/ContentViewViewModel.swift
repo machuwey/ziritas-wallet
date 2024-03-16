@@ -18,6 +18,7 @@ class ContentViewViewModel: ObservableObject {
     
     @Published var isLoading = true
     
+    let keychainAccountString = Bundle.main.object(forInfoDictionaryKey: "KeychainAccountString") as? String
     
     var account_contract_class_hash: Felt?
     
@@ -566,7 +567,7 @@ class ContentViewViewModel: ObservableObject {
     }
     
     func deployMoaAccount(participants: [Participant], threshold: Int) async throws -> (StarknetInvokeTransactionResponse, Felt) {
-        guard let account_contract_class_hash = Felt(fromHex: "0x054c0b062454d24d7e165bdcc5ca209af3f7572632a13c499117c9e2e90f5da8") else {
+        guard let account_contract_class_hash = Felt(fromHex: "0x00ca6d503d0136b93b35870e6d0ad17d809402882b9cbca0b43a1f7c33f8c1bd") else {
             throw TransactionError.errorParsinFelt
         }
         
@@ -719,7 +720,8 @@ class ContentViewViewModel: ObservableObject {
               let private_key_felt = Felt(privateKeyData) else {
             throw TransactionError.privateKeyNotFound
         }
-        guard let address_felt = accountStore.address, let provider = accountStore.provider else {
+        guard let address_felt = accountStore.address, let provider = accountStore.provider,
+            let public_key_felt = accountStore.public_key_felt else {
             throw TransactionError.privateKeyNotFound
         }
         
@@ -791,14 +793,30 @@ class ContentViewViewModel: ObservableObject {
         //guard let maxFee else { throw TransactionError.account_deploy_hash_error}
         
         //let params = StarknetInvokeParamsV1(nonce: nonce, maxFee: .zero)
+        
+        /*
+         /// Format of a signature: [ A_type, A_address, A_pub_key, A_r, A_s, A_sig_len, A_ext_sig, ...etc]
+
+         */
 
         let transaction = StarknetInvokeTransactionV1(senderAddress: moaAccountAdress, calldata: calldata, signature: [], maxFee: maxFee!, nonce: nonce, forFeeEstimation: false)
 
         let hash = StarknetTransactionHashCalculator.computeHash(of: transaction, chainId: chainId)
 
-        let signature = try signer.sign(transactionHash: hash)
+  
+        let hashSignature = try StarknetCurve.sign(privateKey: private_key_felt, hash: hash)
+        
+        let fullSignature: [Felt] = [
+        0,
+        address_felt,
+        public_key_felt,
+        hashSignature.r,
+        hashSignature.s,
+        1
+        ]
+    
 
-        let transaction_signed = StarknetInvokeTransactionV1(senderAddress: moaAccountAdress, calldata: calldata, signature: signature, maxFee: maxFee!, nonce: nonce, forFeeEstimation: false)
+        let transaction_signed = StarknetInvokeTransactionV1(senderAddress: moaAccountAdress, calldata: calldata, signature: fullSignature, maxFee: maxFee!, nonce: nonce, forFeeEstimation: false)
 
         let tx_response = try await provider.addInvokeTransaction(transaction_signed)
         print(tx_response)
