@@ -601,11 +601,11 @@ class ContentViewViewModel: ObservableObject {
         let numbahOfParticipants: Felt = Felt(clamping: 2)
         let argument1:Felt = participant0_address
         let argument2:Felt = participant0.publicKey
-        let weight0: Felt = Felt(clamping: 2)
+        let weight0: Felt = Felt(clamping: weights[0])
         let argument3:Felt = participant1_address
         let argument4:Felt = participant1.publicKey
-        let weight1: Felt = Felt(clamping: 1)
-        let argument5:Felt = Felt(clamping: 2)
+        let weight1: Felt = Felt(clamping: weights[1])
+        let argument5:Felt = Felt(clamping: threshold) //Threshold
         let contractAdress:Felt = Felt(fromHex: "0x041a78e741e5af2fec34b695679bc6891742439f7afb8484ecd7766661ad02bf")!
         let randomSalt = Int.random(in: 1...Int.max) // Generate a random salt
         
@@ -613,10 +613,10 @@ class ContentViewViewModel: ObservableObject {
                 numbahOfParticipants,
                 argument1,
                 argument2,
-                Felt(clamping: weights[0]),
+                weight0,
                 argument3,
                 argument4,
-                Felt(clamping: weights[1]),
+                weight1,
                 argument5
             ]
         //This is the udc calldata which encapuslates some extra params + constructor calldata
@@ -624,7 +624,7 @@ class ContentViewViewModel: ObservableObject {
             account_contract_class_hash, // Account class hash
             Felt(clamping: randomSalt), // Salt
             Felt(clamping: 1), // Unique
-            Felt(clamping: 8  ), // Data Legnth
+            Felt(clamping: 8), // Data Legnth
             numbahOfParticipants,
             argument1,
             argument2,
@@ -822,7 +822,7 @@ class ContentViewViewModel: ObservableObject {
         public_key_felt,
         hashSignature.r,
         hashSignature.s,
-        1
+        0
         ]
     
 
