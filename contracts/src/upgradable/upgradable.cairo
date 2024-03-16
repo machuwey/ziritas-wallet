@@ -217,7 +217,7 @@ mod UpgradableComponent {
                     .unwrap();
 
                 let mut i = 1; // in legacy MOA account, deployment stark signer was at index 0
-                let mut legacy_signers: Array<(ContractAddress, felt252)> = array![];
+                let mut legacy_signers: Array<(ContractAddress, felt252, u32)> = array![];
                 loop {
                     if i > signer_max_idx {
                         break;
@@ -238,7 +238,7 @@ mod UpgradableComponent {
                         .unwrap();
 
                     if signer_type == SignerType::MOA.into() {
-                        legacy_signers.append((address.try_into().unwrap(), stark_pub_key));
+                        legacy_signers.append((address.try_into().unwrap(), stark_pub_key,1));
                     } else {
                         assert(
                             signer_type == SignerType::Empty.into(), Errors::INVALID_STORAGE_MIGRATE

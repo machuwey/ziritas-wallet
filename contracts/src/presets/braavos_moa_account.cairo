@@ -144,7 +144,9 @@ mod BraavosMoaAccount {
 
     #[constructor]
     fn constructor(
-        ref self: ContractState, signers: Array<(ContractAddress, felt252)>, threshold: usize
+        ref self: ContractState,
+        signers: Array<(ContractAddress, felt252, u32)>,
+        threshold: usize
     ) {
         self.moa_signer_management._add_signers(signers, threshold);
     }
@@ -289,11 +291,24 @@ mod BraavosMoaAccount {
                 );
             span_to_dict(signers.span(), assert_unique: true);
 
-            assert(
-                signers.len() >= self.pending_txn._get_adjusted_threshold(),
+            // Initialize total weight
+            let mut total_weight: u32 = 0;
+            let mut i: usize = 0;
+
+            // Iterate over signers to sum their weights using a while loop
+            while i < signers
+                .len() {
+                    let signer = signers.at(i);
+                    let weight = self.moa_signer_management.getVoteWeightFor(*signer.signer.address);
+                    total_weight += weight;
+                    i = i + 1;
+                };
+
+             assert(
+                total_weight >= self.pending_txn._get_adjusted_threshold(),
                 Errors::NOT_ENOUGH_CONFIRMATIONS
             );
-            VALIDATED
+            VALIDATED 
         }
 
         // expected to be deployed via deploy syscall (UDC)

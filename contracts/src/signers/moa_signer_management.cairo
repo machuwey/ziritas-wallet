@@ -25,10 +25,13 @@ mod MoaSignerManagement {
         const NO_SIGNERS: felt252 = 'NO_SIGNERS';
         const DUPLICATE_SIGNER: felt252 = 'DUPLICATE_SIGNER';
         const UNKNOWN_SIGNER: felt252 = 'UNKNOWN_SIGNER';
+        const CONSOLE_TIL_JERE: felt252 = 'CONSOLE_TIL_JERE';
     }
 
     #[storage]
-    struct Storage {}
+    struct Storage {
+        vote_weights: LegacyMap<ContractAddress, u32>
+    }
 
     #[event]
     #[derive(Drop, starknet::Event)]
@@ -61,6 +64,12 @@ mod MoaSignerManagement {
             GetMoaSignersResponse { moa: get_signers_by_type(SignerType::MOA) }
         }
 
+        fn getVoteWeightFor(
+            self: @ComponentState<TContractState>, signer: ContractAddress
+        ) -> u32  {
+            self.vote_weights.read(signer)
+        }
+
         /// @param signers An array of pairs representing the external
         /// signers to be added
         /// @param threshold New threshold value
@@ -70,7 +79,7 @@ mod MoaSignerManagement {
         /// Panic if signer already added
         fn add_external_signers(
             ref self: ComponentState<TContractState>,
-            signers: Array<(ContractAddress, felt252)>,
+            signers: Array<(ContractAddress, felt252, u32)>,
             threshold: usize
         ) {
             assert_self_caller();
@@ -140,9 +149,10 @@ mod MoaSignerManagement {
         /// Internal implementation for adding
         fn _add_signers(
             ref self: ComponentState<TContractState>,
-            mut signers: Array<(ContractAddress, felt252)>,
+            mut signers: Array<(ContractAddress, felt252, u32)>,
             threshold: usize
         ) {
+            //assert(1!=1, 'CONSOLE_TIL_JERE');
             let append_signers_len: usize = signers.len();
             let existing_signers: Array<felt252> = get_signers_by_type(SignerType::MOA);
             let existing_signers_len: usize = existing_signers.len();
@@ -158,7 +168,7 @@ mod MoaSignerManagement {
             loop {
                 match signers.pop_front() {
                     Option::Some((
-                        address, pub_key
+                        address, pub_key, weight
                     )) => {
                         assert(
                             pub_key != 0 && address != contract_address_const::<0>(),
@@ -173,6 +183,8 @@ mod MoaSignerManagement {
                         );
                         address_dup_tracker.insert(address.into(), true);
                         add_signer(SignerType::MOA, guid);
+                        //Add weight
+                        self.vote_weights.write(address, weight);
                         self
                             .emit(
                                 OwnerAdded {
