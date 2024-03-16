@@ -26,6 +26,8 @@ class ContentViewViewModel: ObservableObject {
     
     init(accountStore: StoreOf<AccountFeature>) {
         self.accountStore = accountStore
+        
+        
     }
     
     private func calculateTotalPortfolioValue(tokens: [Token]) -> Float {
@@ -49,11 +51,11 @@ class ContentViewViewModel: ObservableObject {
             // Convert the private key to Data and store it securely in the Keychain
             let privateKeyData: Data = privKeyFelt.serialize()
             
-            keychain.storePrivateKey(privateKeyData, service: "com.strapex.wallet", account: "wallet-private-key")
+            keychain.storePrivateKey(privateKeyData, service: "com.strapex.wallet", account: keychainAccountString!)
             
             // Introducing a wait before reading
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                guard let retrievedPrivateKeyData = self.keychain.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+                guard let retrievedPrivateKeyData = self.keychain.retrievePrivateKey(service: "com.strapex.wallet", account: self.keychainAccountString!),
                       privateKeyData == retrievedPrivateKeyData else {
                     self.errorMessage = "Failed to verify the private key storage"
                     return
@@ -79,7 +81,7 @@ class ContentViewViewModel: ObservableObject {
         }
     }
     func retrieveWallet() {
-        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: keychainAccountString!),
               let private_key_felt = Felt(privateKeyData) else {
             // No wallet found, or there was an error retrieving the private key
             return
@@ -160,11 +162,11 @@ class ContentViewViewModel: ObservableObject {
         
         // Store the private key securely in the Keychain
         let privateKeyData: Data = privateKeyFelt.serialize()
-        keychain.storePrivateKey(privateKeyData, service: "com.strapex.wallet", account: "wallet-private-key")
+        keychain.storePrivateKey(privateKeyData, service: "com.strapex.wallet", account: keychainAccountString!)
         
         // Verify the private key storage
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            guard let retrievedPrivateKeyData = self.keychain.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+            guard let retrievedPrivateKeyData = self.keychain.retrievePrivateKey(service: "com.strapex.wallet", account: self.keychainAccountString!),
                   privateKeyData == retrievedPrivateKeyData else {
                 self.errorMessage = "Failed to verify the private key storage"
                 return
@@ -202,7 +204,7 @@ class ContentViewViewModel: ObservableObject {
         }
         
         // Retrieve the private key from the Keychain
-        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: keychainAccountString!),
               let private_key_felt = Felt(privateKeyData),
               let messageFelt = Felt.fromShortString(customMessage) else {
             self.errorMessage = "Invalid private key or message"
@@ -387,7 +389,7 @@ class ContentViewViewModel: ObservableObject {
     
     func signTransaction_execute(calls: [StarknetCall], params: StarknetInvokeParamsV3?) async throws -> StarknetInvokeTransactionResponse {
         
-        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: keychainAccountString!),
               let private_key_felt = Felt(privateKeyData) else {
             throw TransactionError.privateKeyNotFound
         }
@@ -571,7 +573,7 @@ class ContentViewViewModel: ObservableObject {
             throw TransactionError.errorParsinFelt
         }
         
-        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: keychainAccountString!),
               let private_key_felt = Felt(privateKeyData) else {
             throw TransactionError.privateKeyNotFound
         }
@@ -716,7 +718,7 @@ class ContentViewViewModel: ObservableObject {
     func signTransactionMoaExecute(params: StarknetInvokeParamsV3?) async throws -> StarknetInvokeTransactionResponse {
         
         
-        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: "wallet-private-key"),
+        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: keychainAccountString!),
               let private_key_felt = Felt(privateKeyData) else {
             throw TransactionError.privateKeyNotFound
         }

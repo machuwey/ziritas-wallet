@@ -567,13 +567,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "594A4754-59FD-4843-84E4-0BD58310EA31 - 7299631b4108159c"
+                  uuid = "594A4754-59FD-4843-84E4-0BD58310EA31 - 7299631b410815da"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -583,27 +583,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "96">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1032">
                </Location>
                <Location
-                  uuid = "594A4754-59FD-4843-84E4-0BD58310EA31 - 7299631b410815bd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ziritas_copy.ContentViewViewModel.retrieveWallet() -&gt; ()"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  uuid = "594A4754-59FD-4843-84E4-0BD58310EA31 - fda67572de88b6bc"
+                  uuid = "594A4754-59FD-4843-84E4-0BD58310EA31 - fda67572de88b6fa"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -613,9 +598,9 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "96">
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "136">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -630,13 +615,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E108591D-C57A-4580-B68B-D4EEB4C0A075 - 7299631b4108159c"
+                  uuid = "E108591D-C57A-4580-B68B-D4EEB4C0A075 - 7299631b41081456"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -646,12 +631,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "96">
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "528">
                </Location>
                <Location
-                  uuid = "E108591D-C57A-4580-B68B-D4EEB4C0A075 - 7299631b4108159c"
+                  uuid = "E108591D-C57A-4580-B68B-D4EEB4C0A075 - 7299631b410815da"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -661,12 +646,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "336">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1032">
                </Location>
                <Location
-                  uuid = "E108591D-C57A-4580-B68B-D4EEB4C0A075 - fda67572de88b69d"
+                  uuid = "E108591D-C57A-4580-B68B-D4EEB4C0A075 - fda67572de88b6db"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -676,9 +661,9 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "336">
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "488">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -693,8 +678,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -709,8 +694,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -725,8 +710,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -741,8 +726,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
@@ -849,8 +834,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
@@ -912,8 +897,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -928,8 +913,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2252,8 +2237,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "457"
-            endingLineNumber = "457"
+            startingLineNumber = "459"
+            endingLineNumber = "459"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2390,8 +2375,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "466"
-            endingLineNumber = "466"
+            startingLineNumber = "468"
+            endingLineNumber = "468"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2468,8 +2453,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "474"
-            endingLineNumber = "474"
+            startingLineNumber = "476"
+            endingLineNumber = "476"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2546,8 +2531,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "485"
-            endingLineNumber = "485"
+            startingLineNumber = "487"
+            endingLineNumber = "487"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2684,8 +2669,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "494"
-            endingLineNumber = "494"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2762,8 +2747,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "499"
-            endingLineNumber = "499"
+            startingLineNumber = "501"
+            endingLineNumber = "501"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2840,8 +2825,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "502"
-            endingLineNumber = "502"
+            startingLineNumber = "504"
+            endingLineNumber = "504"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2918,8 +2903,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "450"
-            endingLineNumber = "450"
+            startingLineNumber = "452"
+            endingLineNumber = "452"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -2996,8 +2981,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "445"
-            endingLineNumber = "445"
+            startingLineNumber = "447"
+            endingLineNumber = "447"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -3170,8 +3155,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "407"
-            endingLineNumber = "407"
+            startingLineNumber = "409"
+            endingLineNumber = "409"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3186,8 +3171,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "384"
-            endingLineNumber = "384"
+            startingLineNumber = "386"
+            endingLineNumber = "386"
             landmarkName = "getAccountBalance(of:selector:for:)"
             landmarkType = "7">
             <Locations>
@@ -3294,8 +3279,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "413"
-            endingLineNumber = "413"
+            startingLineNumber = "415"
+            endingLineNumber = "415"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -3417,8 +3402,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "420"
-            endingLineNumber = "420"
+            startingLineNumber = "422"
+            endingLineNumber = "422"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -3600,8 +3585,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "454"
-            endingLineNumber = "454"
+            startingLineNumber = "456"
+            endingLineNumber = "456"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -4106,8 +4091,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "619"
-            endingLineNumber = "619"
+            startingLineNumber = "621"
+            endingLineNumber = "621"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -4424,8 +4409,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "617"
-            endingLineNumber = "617"
+            startingLineNumber = "619"
+            endingLineNumber = "619"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -4742,8 +4727,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "616"
-            endingLineNumber = "616"
+            startingLineNumber = "618"
+            endingLineNumber = "618"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -4910,8 +4895,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "613"
-            endingLineNumber = "613"
+            startingLineNumber = "615"
+            endingLineNumber = "615"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5063,8 +5048,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "606"
-            endingLineNumber = "606"
+            startingLineNumber = "608"
+            endingLineNumber = "608"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5231,8 +5216,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "601"
-            endingLineNumber = "601"
+            startingLineNumber = "603"
+            endingLineNumber = "603"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5294,8 +5279,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "596"
-            endingLineNumber = "596"
+            startingLineNumber = "598"
+            endingLineNumber = "598"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5357,8 +5342,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "568"
-            endingLineNumber = "568"
+            startingLineNumber = "570"
+            endingLineNumber = "570"
             landmarkName = "ContentViewViewModel"
             landmarkType = "3">
          </BreakpointContent>
@@ -5373,8 +5358,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "603"
-            endingLineNumber = "603"
+            startingLineNumber = "605"
+            endingLineNumber = "605"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5586,8 +5571,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "569"
-            endingLineNumber = "569"
+            startingLineNumber = "571"
+            endingLineNumber = "571"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5602,8 +5587,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "571"
-            endingLineNumber = "571"
+            startingLineNumber = "573"
+            endingLineNumber = "573"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5740,8 +5725,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "570"
-            endingLineNumber = "570"
+            startingLineNumber = "572"
+            endingLineNumber = "572"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5756,8 +5741,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "595"
-            endingLineNumber = "595"
+            startingLineNumber = "597"
+            endingLineNumber = "597"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5772,8 +5757,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "581"
-            endingLineNumber = "581"
+            startingLineNumber = "583"
+            endingLineNumber = "583"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -5895,8 +5880,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "579"
-            endingLineNumber = "579"
+            startingLineNumber = "581"
+            endingLineNumber = "581"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6078,8 +6063,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "578"
-            endingLineNumber = "578"
+            startingLineNumber = "580"
+            endingLineNumber = "580"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6126,8 +6111,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "576"
-            endingLineNumber = "576"
+            startingLineNumber = "578"
+            endingLineNumber = "578"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6189,8 +6174,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "575"
-            endingLineNumber = "575"
+            startingLineNumber = "577"
+            endingLineNumber = "577"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6252,8 +6237,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "574"
-            endingLineNumber = "574"
+            startingLineNumber = "576"
+            endingLineNumber = "576"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6315,8 +6300,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "573"
-            endingLineNumber = "573"
+            startingLineNumber = "575"
+            endingLineNumber = "575"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6628,8 +6613,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "610"
-            endingLineNumber = "610"
+            startingLineNumber = "612"
+            endingLineNumber = "612"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -6706,8 +6691,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -7245,8 +7230,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "620"
-            endingLineNumber = "620"
+            startingLineNumber = "622"
+            endingLineNumber = "622"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -7968,8 +7953,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "626"
-            endingLineNumber = "626"
+            startingLineNumber = "628"
+            endingLineNumber = "628"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -8241,8 +8226,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "650"
-            endingLineNumber = "650"
+            startingLineNumber = "652"
+            endingLineNumber = "652"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -8304,8 +8289,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "630"
-            endingLineNumber = "630"
+            startingLineNumber = "632"
+            endingLineNumber = "632"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -8352,8 +8337,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "629"
-            endingLineNumber = "629"
+            startingLineNumber = "631"
+            endingLineNumber = "631"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -8400,8 +8385,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "789"
-            endingLineNumber = "789"
+            startingLineNumber = "791"
+            endingLineNumber = "791"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -8478,8 +8463,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "784"
-            endingLineNumber = "784"
+            startingLineNumber = "786"
+            endingLineNumber = "786"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -8586,8 +8571,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "794"
-            endingLineNumber = "794"
+            startingLineNumber = "796"
+            endingLineNumber = "796"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -9816,43 +9801,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "652"
-            endingLineNumber = "652"
+            startingLineNumber = "654"
+            endingLineNumber = "654"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 7cb920f30ccee8fa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "653"
-                  endingLineNumber = "653"
-                  offsetFromSymbolStart = "516">
-               </Location>
-               <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - cbd00457b54ff207"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(10) await resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "653"
-                  endingLineNumber = "653"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 86703c835e5b4730"
+                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 86703c835e5b47ad"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -9862,42 +9817,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "653"
-                  endingLineNumber = "653"
-                  offsetFromSymbolStart = "400">
+                  startingLineNumber = "656"
+                  endingLineNumber = "656"
+                  offsetFromSymbolStart = "968">
                </Location>
                <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 7cb920f30cceeb1b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
-                  offsetFromSymbolStart = "516">
-               </Location>
-               <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - cbd00457b54ff1e6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(10) await resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 86703c835e5b44d1"
+                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 86703c835e5b4713"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -9907,12 +9832,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
-                  offsetFromSymbolStart = "400">
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "748">
                </Location>
                <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 9b7da67649ab9b73"
+                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 9b7da67649ab98b1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -9922,12 +9847,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
                   offsetFromSymbolStart = "516">
                </Location>
                <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - f4f4164c1258cfb5"
+                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - f4f4164c1258cc77"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -9937,12 +9862,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 45fe795a6dc5bdc9"
+                  uuid = "C41571D8-C139-426E-A5E8-DC3D66207131 - 45fe795a6dc5be0b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -9952,8 +9877,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
                   offsetFromSymbolStart = "400">
                </Location>
             </Locations>
@@ -9969,8 +9894,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "618"
-            endingLineNumber = "618"
+            startingLineNumber = "620"
+            endingLineNumber = "620"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -10032,13 +9957,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
             landmarkName = "saveMoaAccount(address:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "553BC45A-D88F-4F77-A293-91B23B5F937E - 3fa47162fe0d0000"
+                  uuid = "553BC45A-D88F-4F77-A293-91B23B5F937E - 3fa47162fe0d01c2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -10048,27 +9973,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "696">
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "936">
                </Location>
                <Location
-                  uuid = "553BC45A-D88F-4F77-A293-91B23B5F937E - 3fa47162fe0d0000"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ziritas_copy.ContentViewViewModel.saveMoaAccount(address: Starknet.Felt) -&gt; ()"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "760">
-               </Location>
-               <Location
-                  uuid = "553BC45A-D88F-4F77-A293-91B23B5F937E - 3ee282abe31cd79d"
+                  uuid = "553BC45A-D88F-4F77-A293-91B23B5F937E - 3ee282abe31cd65f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -10078,8 +9988,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
                   offsetFromSymbolStart = "760">
                </Location>
             </Locations>
@@ -10329,13 +10239,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "saveMoaAccount(address:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "91BFA3CE-3747-45D0-BC2B-AF1BBED45DB2 - 3fa47162fe0d01a3"
+                  uuid = "91BFA3CE-3747-45D0-BC2B-AF1BBED45DB2 - 3fa47162fe0d0108"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -10345,27 +10255,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "135"
-                  endingLineNumber = "135"
-                  offsetFromSymbolStart = "936">
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "1556">
                </Location>
                <Location
-                  uuid = "91BFA3CE-3747-45D0-BC2B-AF1BBED45DB2 - 3fa47162fe0d01a3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ziritas_copy.ContentViewViewModel.saveMoaAccount(address: Starknet.Felt) -&gt; ()"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "135"
-                  endingLineNumber = "135"
-                  offsetFromSymbolStart = "1372">
-               </Location>
-               <Location
-                  uuid = "91BFA3CE-3747-45D0-BC2B-AF1BBED45DB2 - 3ee282abe31cd63e"
+                  uuid = "91BFA3CE-3747-45D0-BC2B-AF1BBED45DB2 - 3ee282abe31cd6f0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -10375,8 +10270,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "135"
-                  endingLineNumber = "135"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
                   offsetFromSymbolStart = "1372">
                </Location>
             </Locations>
@@ -10392,8 +10287,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "667"
-            endingLineNumber = "667"
+            startingLineNumber = "669"
+            endingLineNumber = "669"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -10408,43 +10303,73 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "669"
-            endingLineNumber = "669"
+            startingLineNumber = "671"
+            endingLineNumber = "671"
             landmarkName = "deployMoaAccountWithCompletion(participants:threshold:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 30ec34b323e80188"
+                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - a7bad4420918ae45"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ziritas_copy.ContentViewViewModel.deployMoaAccountWithCompletion(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int, completion: (Swift.Result&lt;ziritas_copy.DeploymentResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in ziritas_copy.ContentViewViewModel.deployMoaAccountWithCompletion(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int, completion: (Swift.Result&lt;ziritas_copy.DeploymentResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "ziritas copy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "671"
-                  endingLineNumber = "671"
-                  offsetFromSymbolStart = "164">
+                  startingLineNumber = "672"
+                  endingLineNumber = "672"
+                  offsetFromSymbolStart = "232">
                </Location>
                <Location
-                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 30ec34b323e801a9"
+                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 3d022a96bb59ca96"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "ziritas_copy.ContentViewViewModel.deployMoaAccountWithCompletion(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int, completion: (Swift.Result&lt;ziritas_copy.DeploymentResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; () in ziritas_copy.ContentViewViewModel.deployMoaAccountWithCompletion(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int, completion: (Swift.Result&lt;ziritas_copy.DeploymentResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "ziritas copy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "670"
-                  endingLineNumber = "670"
-                  offsetFromSymbolStart = "164">
+                  startingLineNumber = "672"
+                  endingLineNumber = "672"
+                  offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 3e19c9e39084d8e1"
+                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 48de8b05b1259373"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ziritas_copy.ContentViewViewModel.deployMoaAccountWithCompletion(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int, completion: (Swift.Result&lt;ziritas_copy.DeploymentResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ziritas copy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "672"
+                  endingLineNumber = "672"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 1c81bc5c36c93d72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ziritas_copy.ContentViewViewModel.deployMoaAccountWithCompletion(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int, completion: (Swift.Result&lt;ziritas_copy.DeploymentResult, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ziritas copy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "672"
+                  endingLineNumber = "672"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "4248ED1E-EA94-4407-83FB-8264D1C2BA7F - 3e19c9e39084d83f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -10454,8 +10379,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "670"
-                  endingLineNumber = "670"
+                  startingLineNumber = "672"
+                  endingLineNumber = "672"
                   offsetFromSymbolStart = "164">
                </Location>
             </Locations>
@@ -10663,8 +10588,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -10679,8 +10604,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -10695,8 +10620,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
@@ -10758,8 +10683,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -10774,8 +10699,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
@@ -10837,8 +10762,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -10853,8 +10778,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
@@ -10916,6 +10841,22 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "retrieveWallet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0CAB534-DEAD-4503-ABB9-DA5A8ED4D946"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ziritas/ContentViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
             endingLineNumber = "104"
             landmarkName = "retrieveWallet()"
@@ -10925,7 +10866,23 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D0CAB534-DEAD-4503-ABB9-DA5A8ED4D946"
+            uuid = "2804D40E-C1FC-4A44-BD2C-A32A1B96E26D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ziritas/ContentViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "retrieveWallet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28D004CA-A9D8-4F9C-9D09-C9ED00D6C0AA"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -10941,39 +10898,39 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2804D40E-C1FC-4A44-BD2C-A32A1B96E26D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ziritas/ContentViewViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "retrieveWallet()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "28D004CA-A9D8-4F9C-9D09-C9ED00D6C0AA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ziritas/ContentViewViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "retrieveWallet()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8F1AB996-093F-4287-B7FD-8BB5B2D2E936"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ziritas/ContentViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "retrieveWallet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFAA2E96-0B8B-48AF-9819-0B1780C40745"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ziritas/ContentViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "retrieveWallet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "518D8B52-9A62-42F9-BC72-071975EEBA42"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -10989,7 +10946,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FFAA2E96-0B8B-48AF-9819-0B1780C40745"
+            uuid = "1954C748-BF82-49FE-908F-1A55645657D9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -10998,38 +10955,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
             endingLineNumber = "96"
-            landmarkName = "retrieveWallet()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "518D8B52-9A62-42F9-BC72-071975EEBA42"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ziritas/ContentViewViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "retrieveWallet()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1954C748-BF82-49FE-908F-1A55645657D9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ziritas/ContentViewViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
             <Locations>
@@ -11076,8 +11001,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -11092,8 +11017,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -11108,8 +11033,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "retrieveWallet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -11236,8 +11161,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "432"
-            endingLineNumber = "432"
+            startingLineNumber = "434"
+            endingLineNumber = "434"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -11314,8 +11239,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "434"
-            endingLineNumber = "434"
+            startingLineNumber = "436"
+            endingLineNumber = "436"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -11407,8 +11332,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "441"
-            endingLineNumber = "441"
+            startingLineNumber = "443"
+            endingLineNumber = "443"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -11455,8 +11380,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "438"
-            endingLineNumber = "438"
+            startingLineNumber = "440"
+            endingLineNumber = "440"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -11533,8 +11458,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "531"
-            endingLineNumber = "531"
+            startingLineNumber = "533"
+            endingLineNumber = "533"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -11641,13 +11566,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "513"
-            endingLineNumber = "513"
+            startingLineNumber = "515"
+            endingLineNumber = "515"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "F9458518-CC09-4D5A-982D-6975418DA720 - d4be86c555c66886"
+                  uuid = "F9458518-CC09-4D5A-982D-6975418DA720 - d4be86c555c668c0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -11657,27 +11582,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "514"
-                  endingLineNumber = "514"
-                  offsetFromSymbolStart = "4412">
+                  startingLineNumber = "516"
+                  endingLineNumber = "516"
+                  offsetFromSymbolStart = "4464">
                </Location>
                <Location
-                  uuid = "F9458518-CC09-4D5A-982D-6975418DA720 - d4be86c555c668a5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(21) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "513"
-                  endingLineNumber = "513"
-                  offsetFromSymbolStart = "4412">
-               </Location>
-               <Location
-                  uuid = "F9458518-CC09-4D5A-982D-6975418DA720 - cde69f510a217f15"
+                  uuid = "F9458518-CC09-4D5A-982D-6975418DA720 - cde69f510a217f57"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -11687,8 +11597,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "513"
-                  endingLineNumber = "513"
+                  startingLineNumber = "515"
+                  endingLineNumber = "515"
                   offsetFromSymbolStart = "4412">
                </Location>
             </Locations>
@@ -11704,43 +11614,28 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "516"
-            endingLineNumber = "516"
+            startingLineNumber = "518"
+            endingLineNumber = "518"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "3F9CBF98-A0DB-4777-9746-9A780773E871 - d4be86c555c66821"
+                  uuid = "3F9CBF98-A0DB-4777-9746-9A780773E871 - e44151a28d1c9a04"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(21) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
+                  symbolName = "(23) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
                   moduleName = "ziritas copy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "517"
-                  endingLineNumber = "517"
-                  offsetFromSymbolStart = "4464">
+                  startingLineNumber = "518"
+                  endingLineNumber = "518"
+                  offsetFromSymbolStart = "556">
                </Location>
                <Location
-                  uuid = "3F9CBF98-A0DB-4777-9746-9A780773E871 - d4be86c555c668c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(21) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "516"
-                  endingLineNumber = "516"
-                  offsetFromSymbolStart = "4464">
-               </Location>
-               <Location
-                  uuid = "3F9CBF98-A0DB-4777-9746-9A780773E871 - cde69f510a217f70"
+                  uuid = "3F9CBF98-A0DB-4777-9746-9A780773E871 - cde69f510a217fb2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -11750,8 +11645,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "516"
-                  endingLineNumber = "516"
+                  startingLineNumber = "518"
+                  endingLineNumber = "518"
                   offsetFromSymbolStart = "4464">
                </Location>
             </Locations>
@@ -11767,8 +11662,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "495"
-            endingLineNumber = "495"
+            startingLineNumber = "497"
+            endingLineNumber = "497"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -11783,8 +11678,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "460"
-            endingLineNumber = "460"
+            startingLineNumber = "462"
+            endingLineNumber = "462"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
@@ -11847,43 +11742,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "633"
-            endingLineNumber = "633"
+            startingLineNumber = "635"
+            endingLineNumber = "635"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - bf9987d5b7797d62"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "556">
-               </Location>
-               <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 1f57fe7927b97a5e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(6) await resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 9f29f742da943ff2"
+                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 9f29f742da94392e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -11893,72 +11758,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "583"
-                  endingLineNumber = "583"
-                  offsetFromSymbolStart = "348">
+                  startingLineNumber = "635"
+                  endingLineNumber = "635"
+                  offsetFromSymbolStart = "564">
                </Location>
                <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 9f29f742da94396c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "464">
-               </Location>
-               <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - e0f876a41f8a7766"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(14) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "600"
-                  endingLineNumber = "600"
-                  offsetFromSymbolStart = "236">
-               </Location>
-               <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - e0f876a41f8a73a7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(14) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "460">
-               </Location>
-               <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 9f29f742da94394f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "634"
-                  endingLineNumber = "634"
-                  offsetFromSymbolStart = "496">
-               </Location>
-               <Location
-                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 4c06a806ba374827"
+                  uuid = "77478EAB-8589-4151-9C8D-975A18A29BDC - 4c06a806ba374861"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -11968,8 +11773,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "634"
-                  endingLineNumber = "634"
+                  startingLineNumber = "636"
+                  endingLineNumber = "636"
                   offsetFromSymbolStart = "496">
                </Location>
             </Locations>
@@ -11985,26 +11790,11 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "660"
-            endingLineNumber = "660"
+            startingLineNumber = "662"
+            endingLineNumber = "662"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
-               <Location
-                  uuid = "F400C02C-6801-4F79-B1D5-65C6D1734054 - 86703c835e5b4629"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(11) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "660"
-                  endingLineNumber = "660"
-                  offsetFromSymbolStart = "1628">
-               </Location>
                <Location
                   uuid = "F400C02C-6801-4F79-B1D5-65C6D1734054 - 86703c835e5b46a5"
                   shouldBeEnabled = "Yes"
@@ -12021,7 +11811,7 @@
                   offsetFromSymbolStart = "1844">
                </Location>
                <Location
-                  uuid = "F400C02C-6801-4F79-B1D5-65C6D1734054 - 45fe795a6dc5bfbd"
+                  uuid = "F400C02C-6801-4F79-B1D5-65C6D1734054 - 45fe795a6dc5bfff"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12031,8 +11821,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "664"
-                  endingLineNumber = "664"
+                  startingLineNumber = "666"
+                  endingLineNumber = "666"
                   offsetFromSymbolStart = "1844">
                </Location>
             </Locations>
@@ -12192,86 +11982,11 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "647"
-            endingLineNumber = "647"
+            startingLineNumber = "649"
+            endingLineNumber = "649"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
-               <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 9f29f742da9427b2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "647"
-                  endingLineNumber = "647"
-                  offsetFromSymbolStart = "1668">
-               </Location>
-               <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 76a820b06fd12886"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(8) await resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "647"
-                  endingLineNumber = "647"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 7cb920f30cceebb0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "647"
-                  endingLineNumber = "647"
-                  offsetFromSymbolStart = "408">
-               </Location>
-               <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 32f2b50a934ca61"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(15) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "600"
-                  endingLineNumber = "600"
-                  offsetFromSymbolStart = "300">
-               </Location>
-               <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 32f2b50a934d07e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(15) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "647"
-                  endingLineNumber = "647"
-                  offsetFromSymbolStart = "556">
-               </Location>
                <Location
                   uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 7cb920f30cceeb1b"
                   shouldBeEnabled = "Yes"
@@ -12318,7 +12033,7 @@
                   offsetFromSymbolStart = "400">
                </Location>
                <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 9b7da67649ab9b73"
+                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 9b7da67649ab98b1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12328,12 +12043,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
                   offsetFromSymbolStart = "516">
                </Location>
                <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - f4f4164c1258cfb5"
+                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - f4f4164c1258cc77"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12343,12 +12058,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 45fe795a6dc5bdc9"
+                  uuid = "6594A911-7F67-4EA3-944E-0855E29E11FB - 45fe795a6dc5be0b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12358,8 +12073,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "652"
-                  endingLineNumber = "652"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
                   offsetFromSymbolStart = "400">
                </Location>
             </Locations>
@@ -12375,13 +12090,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "642"
-            endingLineNumber = "642"
+            startingLineNumber = "644"
+            endingLineNumber = "644"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "315215A6-4B4E-4454-AE44-F00D3AE7E926 - 9f29f742da942657"
+                  uuid = "315215A6-4B4E-4454-AE44-F00D3AE7E926 - 9f29f742da9427f0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12391,27 +12106,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "642"
-                  endingLineNumber = "642"
-                  offsetFromSymbolStart = "984">
+                  startingLineNumber = "645"
+                  endingLineNumber = "645"
+                  offsetFromSymbolStart = "1460">
                </Location>
                <Location
-                  uuid = "315215A6-4B4E-4454-AE44-F00D3AE7E926 - 9f29f742da942636"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "643"
-                  endingLineNumber = "643"
-                  offsetFromSymbolStart = "1292">
-               </Location>
-               <Location
-                  uuid = "315215A6-4B4E-4454-AE44-F00D3AE7E926 - 4c06a806ba37575e"
+                  uuid = "315215A6-4B4E-4454-AE44-F00D3AE7E926 - 4c06a806ba375698"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12421,8 +12121,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "643"
-                  endingLineNumber = "643"
+                  startingLineNumber = "645"
+                  endingLineNumber = "645"
                   offsetFromSymbolStart = "1292">
                </Location>
             </Locations>
@@ -12438,8 +12138,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "627"
-            endingLineNumber = "627"
+            startingLineNumber = "629"
+            endingLineNumber = "629"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -12576,8 +12276,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "628"
-            endingLineNumber = "628"
+            startingLineNumber = "630"
+            endingLineNumber = "630"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -12624,8 +12324,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "631"
-            endingLineNumber = "631"
+            startingLineNumber = "633"
+            endingLineNumber = "633"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
@@ -12762,43 +12462,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "632"
-            endingLineNumber = "632"
+            startingLineNumber = "634"
+            endingLineNumber = "634"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - bf9987d5b7797d62"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "556">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 1f57fe7927b97a5e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(6) await resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 9f29f742da943ff2"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 9f29f742da94394f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12808,147 +12478,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "583"
-                  endingLineNumber = "583"
-                  offsetFromSymbolStart = "348">
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
+                  offsetFromSymbolStart = "496">
                </Location>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 9f29f742da94396c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "464">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - e0f876a41f8a7766"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(14) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "600"
-                  endingLineNumber = "600"
-                  offsetFromSymbolStart = "236">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - e0f876a41f8a73a7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(14) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "633"
-                  endingLineNumber = "633"
-                  offsetFromSymbolStart = "460">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - bf9987d5b7797d83"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
-                  offsetFromSymbolStart = "556">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 1f57fe7927b97abf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(6) await resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 9f29f742da943e13"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "582"
-                  endingLineNumber = "582"
-                  offsetFromSymbolStart = "348">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 9f29f742da94398d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
-                  offsetFromSymbolStart = "464">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - e0f876a41f8a7709"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(14) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "599"
-                  endingLineNumber = "599"
-                  offsetFromSymbolStart = "236">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - e0f876a41f8a7346"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(14) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
-                  offsetFromSymbolStart = "460">
-               </Location>
-               <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 31cfbdd72cb00a1b"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 31cfbdd72cb00ad9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12958,12 +12493,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
                   offsetFromSymbolStart = "556">
                </Location>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 26cd6b7ac53cd02"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 26cd6b7ac53cdc0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12973,12 +12508,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 4c06a806ba374f7b"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 4c06a806ba374eb5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -12988,12 +12523,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "582"
-                  endingLineNumber = "582"
+                  startingLineNumber = "584"
+                  endingLineNumber = "584"
                   offsetFromSymbolStart = "348">
                </Location>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 4c06a806ba3748e5"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 4c06a806ba374827"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13003,12 +12538,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
                   offsetFromSymbolStart = "464">
                </Location>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 804b0311550fb911"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 804b0311550fb95f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13018,12 +12553,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "599"
-                  endingLineNumber = "599"
+                  startingLineNumber = "601"
+                  endingLineNumber = "601"
                   offsetFromSymbolStart = "236">
                </Location>
                <Location
-                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 804b0311550fbd5e"
+                  uuid = "6959F3F4-592A-405A-BBAD-A3369E54ECBB - 804b0311550fbd9c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13033,8 +12568,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "632"
-                  endingLineNumber = "632"
+                  startingLineNumber = "634"
+                  endingLineNumber = "634"
                   offsetFromSymbolStart = "460">
                </Location>
             </Locations>
@@ -13050,13 +12585,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "635"
-            endingLineNumber = "635"
+            startingLineNumber = "637"
+            endingLineNumber = "637"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "180ECF4F-9894-4FAC-9BFF-221C25EB4F89 - 9f29f742da94392e"
+                  uuid = "180ECF4F-9894-4FAC-9BFF-221C25EB4F89 - 9f29f742da9426e8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13066,27 +12601,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "635"
-                  endingLineNumber = "635"
-                  offsetFromSymbolStart = "496">
+                  startingLineNumber = "637"
+                  endingLineNumber = "637"
+                  offsetFromSymbolStart = "672">
                </Location>
                <Location
-                  uuid = "180ECF4F-9894-4FAC-9BFF-221C25EB4F89 - 9f29f742da94392e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "635"
-                  endingLineNumber = "635"
-                  offsetFromSymbolStart = "564">
-               </Location>
-               <Location
-                  uuid = "180ECF4F-9894-4FAC-9BFF-221C25EB4F89 - 4c06a806ba374846"
+                  uuid = "180ECF4F-9894-4FAC-9BFF-221C25EB4F89 - 4c06a806ba375780"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13096,8 +12616,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "635"
-                  endingLineNumber = "635"
+                  startingLineNumber = "637"
+                  endingLineNumber = "637"
                   offsetFromSymbolStart = "564">
                </Location>
             </Locations>
@@ -13113,13 +12633,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "634"
-            endingLineNumber = "634"
+            startingLineNumber = "636"
+            endingLineNumber = "636"
             landmarkName = "deployMoaAccount(participants:threshold:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "AA07FBBA-35FA-4B5D-93AC-D76E0078BC6D - 9f29f742da94392e"
+                  uuid = "AA07FBBA-35FA-4B5D-93AC-D76E0078BC6D - 9f29f742da9426e8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13129,27 +12649,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "635"
-                  endingLineNumber = "635"
-                  offsetFromSymbolStart = "496">
+                  startingLineNumber = "637"
+                  endingLineNumber = "637"
+                  offsetFromSymbolStart = "672">
                </Location>
                <Location
-                  uuid = "AA07FBBA-35FA-4B5D-93AC-D76E0078BC6D - 9f29f742da94394f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.deployMoaAccount(participants: Swift.Array&lt;ziritas_copy.Participant&gt;, threshold: Swift.Int) async throws -&gt; (Starknet.StarknetInvokeTransactionResponse, Starknet.Felt)"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "634"
-                  endingLineNumber = "634"
-                  offsetFromSymbolStart = "496">
-               </Location>
-               <Location
-                  uuid = "AA07FBBA-35FA-4B5D-93AC-D76E0078BC6D - 4c06a806ba374827"
+                  uuid = "AA07FBBA-35FA-4B5D-93AC-D76E0078BC6D - 4c06a806ba374861"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -13159,8 +12664,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "634"
-                  endingLineNumber = "634"
+                  startingLineNumber = "636"
+                  endingLineNumber = "636"
                   offsetFromSymbolStart = "496">
                </Location>
             </Locations>
@@ -13490,8 +12995,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "753"
-            endingLineNumber = "753"
+            startingLineNumber = "755"
+            endingLineNumber = "755"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -13506,8 +13011,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "754"
-            endingLineNumber = "754"
+            startingLineNumber = "756"
+            endingLineNumber = "756"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -13704,8 +13209,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "741"
-            endingLineNumber = "741"
+            startingLineNumber = "743"
+            endingLineNumber = "743"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -13720,8 +13225,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "728"
-            endingLineNumber = "728"
+            startingLineNumber = "730"
+            endingLineNumber = "730"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -13828,8 +13333,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "719"
-            endingLineNumber = "719"
+            startingLineNumber = "721"
+            endingLineNumber = "721"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -13844,8 +13349,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "764"
-            endingLineNumber = "764"
+            startingLineNumber = "766"
+            endingLineNumber = "766"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -13860,8 +13365,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "779"
-            endingLineNumber = "779"
+            startingLineNumber = "781"
+            endingLineNumber = "781"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -13983,8 +13488,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "781"
-            endingLineNumber = "781"
+            startingLineNumber = "783"
+            endingLineNumber = "783"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14061,8 +13566,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "782"
-            endingLineNumber = "782"
+            startingLineNumber = "784"
+            endingLineNumber = "784"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14139,8 +13644,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "787"
-            endingLineNumber = "787"
+            startingLineNumber = "789"
+            endingLineNumber = "789"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14187,8 +13692,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "791"
-            endingLineNumber = "791"
+            startingLineNumber = "793"
+            endingLineNumber = "793"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14235,8 +13740,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "802"
-            endingLineNumber = "802"
+            startingLineNumber = "804"
+            endingLineNumber = "804"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14328,8 +13833,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "804"
-            endingLineNumber = "804"
+            startingLineNumber = "806"
+            endingLineNumber = "806"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14376,13 +13881,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "533"
-            endingLineNumber = "533"
+            startingLineNumber = "535"
+            endingLineNumber = "535"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - d0da7cd76c922f9a"
+                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - d0da7cd76c922fd8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14392,12 +13897,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "533"
-                  endingLineNumber = "533"
-                  offsetFromSymbolStart = "1184">
+                  startingLineNumber = "535"
+                  endingLineNumber = "535"
+                  offsetFromSymbolStart = "2648">
                </Location>
                <Location
-                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - 31066c58043d1f92"
+                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - 31066c58043d1fd0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14407,42 +13912,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "533"
-                  endingLineNumber = "533"
-                  offsetFromSymbolStart = "660">
+                  startingLineNumber = "535"
+                  endingLineNumber = "535"
+                  offsetFromSymbolStart = "1688">
                </Location>
                <Location
-                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - d0da7cd76c922f9a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "533"
-                  endingLineNumber = "533"
-                  offsetFromSymbolStart = "2420">
-               </Location>
-               <Location
-                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - 31066c58043d1f92"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "533"
-                  endingLineNumber = "533"
-                  offsetFromSymbolStart = "1460">
-               </Location>
-               <Location
-                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - 64562e1fbf2fbfe6"
+                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - 64562e1fbf2fbfa4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14452,12 +13927,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "533"
-                  endingLineNumber = "533"
+                  startingLineNumber = "535"
+                  endingLineNumber = "535"
                   offsetFromSymbolStart = "2420">
                </Location>
                <Location
-                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - fa1ac204d35d27fa"
+                  uuid = "9BA207E5-8F94-4041-8E3A-C4F50984B50E - fa1ac204d35d27b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14467,8 +13942,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "533"
-                  endingLineNumber = "533"
+                  startingLineNumber = "535"
+                  endingLineNumber = "535"
                   offsetFromSymbolStart = "1460">
                </Location>
             </Locations>
@@ -14484,13 +13959,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "555"
-            endingLineNumber = "555"
+            startingLineNumber = "557"
+            endingLineNumber = "557"
             landmarkName = "signTransaction_execute(calls:params:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - d0da7cd76c9228a3"
+                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - d0da7cd76c9228c0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14500,12 +13975,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "556"
-                  endingLineNumber = "556"
-                  offsetFromSymbolStart = "3756">
+                  startingLineNumber = "559"
+                  endingLineNumber = "559"
+                  offsetFromSymbolStart = "4092">
                </Location>
                <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 31066c58043d18ab"
+                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 31066c58043d18c8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14515,12 +13990,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "556"
-                  endingLineNumber = "556"
-                  offsetFromSymbolStart = "2796">
+                  startingLineNumber = "559"
+                  endingLineNumber = "559"
+                  offsetFromSymbolStart = "3132">
                </Location>
                <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - b4b0c885e9c4727"
+                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - b4b0c885e9c4744"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14530,57 +14005,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "556"
-                  endingLineNumber = "556"
-                  offsetFromSymbolStart = "1256">
+                  startingLineNumber = "559"
+                  endingLineNumber = "559"
+                  offsetFromSymbolStart = "1596">
                </Location>
                <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - d0da7cd76c922844"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "555"
-                  endingLineNumber = "555"
-                  offsetFromSymbolStart = "3756">
-               </Location>
-               <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 31066c58043d184c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "555"
-                  endingLineNumber = "555"
-                  offsetFromSymbolStart = "2796">
-               </Location>
-               <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - b4b0c885e9c47c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(11) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransaction_execute(calls: Swift.Array&lt;Starknet.StarknetCall&gt;, params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
-                  moduleName = "ziritas copy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "555"
-                  endingLineNumber = "555"
-                  offsetFromSymbolStart = "1256">
-               </Location>
-               <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 64562e1fbf2fb838"
+                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 64562e1fbf2fb8fe"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14590,12 +14020,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "555"
-                  endingLineNumber = "555"
+                  startingLineNumber = "557"
+                  endingLineNumber = "557"
                   offsetFromSymbolStart = "3756">
                </Location>
                <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - fa1ac204d35d2024"
+                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - fa1ac204d35d20e2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14605,12 +14035,12 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "555"
-                  endingLineNumber = "555"
+                  startingLineNumber = "557"
+                  endingLineNumber = "557"
                   offsetFromSymbolStart = "2796">
                </Location>
                <Location
-                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 9c914b5ecf3d987e"
+                  uuid = "503F4469-3832-45B6-91D6-597D652136B0 - 9c914b5ecf3d98b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14620,8 +14050,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "555"
-                  endingLineNumber = "555"
+                  startingLineNumber = "557"
+                  endingLineNumber = "557"
                   offsetFromSymbolStart = "1256">
                </Location>
             </Locations>
@@ -14637,8 +14067,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "822"
-            endingLineNumber = "822"
+            startingLineNumber = "824"
+            endingLineNumber = "824"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -14653,8 +14083,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "821"
-            endingLineNumber = "821"
+            startingLineNumber = "823"
+            endingLineNumber = "823"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -14669,8 +14099,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "727"
-            endingLineNumber = "727"
+            startingLineNumber = "729"
+            endingLineNumber = "729"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
@@ -14780,8 +14210,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "795"
-            endingLineNumber = "795"
+            startingLineNumber = "797"
+            endingLineNumber = "797"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -14796,13 +14226,13 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "819"
-            endingLineNumber = "819"
+            startingLineNumber = "821"
+            endingLineNumber = "821"
             landmarkName = "signTransactionMoaExecute(params:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - b39df08fd41e32e7"
+                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - b39df08fd41e3286"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14812,27 +14242,57 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "820"
-                  endingLineNumber = "820"
-                  offsetFromSymbolStart = "3388">
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "3708">
                </Location>
                <Location
-                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - b39df08fd41e32c0"
+                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - 19aa8eef683463a3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransactionMoaExecute(params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
+                  symbolName = "(6) await resume partial function for ziritas_copy.ContentViewViewModel.signTransactionMoaExecute(params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
                   moduleName = "ziritas copy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "819"
-                  endingLineNumber = "819"
-                  offsetFromSymbolStart = "3388">
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "56">
                </Location>
                <Location
-                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - f44048eda414dbbd"
+                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - 798bc70d7f357e98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransactionMoaExecute(params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
+                  moduleName = "ziritas copy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - b9731c485d45b74f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for ziritas_copy.ContentViewViewModel.signTransactionMoaExecute(params: Swift.Optional&lt;Starknet.StarknetInvokeParamsV3&gt;) async throws -&gt; Starknet.StarknetInvokeTransactionResponse"
+                  moduleName = "ziritas copy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "20ED4FF8-AADF-4672-8B4C-C8F54713440E - f44048eda414dbfb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -14842,8 +14302,8 @@
                   urlString = "file:///Users/matveydergunov/Desktop/ziritas-wallet/ziritas/ziritas/ContentViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "819"
-                  endingLineNumber = "819"
+                  startingLineNumber = "821"
+                  endingLineNumber = "821"
                   offsetFromSymbolStart = "3388">
                </Location>
             </Locations>
@@ -14859,8 +14319,8 @@
             filePath = "ziritas/ContentViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "createWallet()"
             landmarkType = "7">
             <Locations>
