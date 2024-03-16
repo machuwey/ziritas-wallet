@@ -512,10 +512,13 @@ class ContentViewViewModel: ObservableObject {
                 ///-------------------
                 
                 
-                let correctResourceBounds = feeEstimatev3.toResourceBounds().l1Gas
+                //slet correctResourceBounds = feeEstimatev3.toResourceBounds().l1Gas
+                
+                
+                
                 
                 //let deployTransaction_signed = StarknetDeployAccountTransactionV3(signature: signature, l1ResourceBounds: resourceBounds.l1Gas, nonce: .zero, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
-                let deployTransaction_signed = StarknetDeployAccountTransactionV3(signature: fullSignature, l1ResourceBounds: correctResourceBounds, nonce: 0, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
+                let deployTransaction_signed = StarknetDeployAccountTransactionV3(signature: fullSignature, l1ResourceBounds: feeEstimatev3.toResourceBounds().l1Gas, nonce: 0, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
                 let tx_response = try await provider.addDeployAccountTransaction(deployTransaction_signed)
                 print(tx_response)
                 ///Wait 5 seconds for the transaction to be mined, make a recursive call to the function to proceed with the funds transfer
@@ -568,7 +571,7 @@ class ContentViewViewModel: ObservableObject {
         return tx_response
     }
     
-    func deployMoaAccount(participants: [Participant], threshold: Int) async throws -> (StarknetInvokeTransactionResponse, Felt) {
+    func deployMoaAccount(participants: [Participant], weights: [Int], threshold: Int) async throws -> (StarknetInvokeTransactionResponse, Felt) {
         guard let account_contract_class_hash = Felt(fromHex: "0x00ca6d503d0136b93b35870e6d0ad17d809402882b9cbca0b43a1f7c33f8c1bd") else {
             throw TransactionError.errorParsinFelt
         }
@@ -602,15 +605,15 @@ class ContentViewViewModel: ObservableObject {
         let randomSalt = Int.random(in: 1...Int.max) // Generate a random salt
         
         let constructor_calldata = [
-            numbahOfParticipants,
-            argument1,
-            argument2,
-            weight0,
-            argument3,
-            argument4,
-            weight1,
-            argument5
-        ]
+                numbahOfParticipants,
+                argument1,
+                argument2,
+                Felt(clamping: weights[0]),
+                argument3,
+                argument4,
+                Felt(clamping: weights[1]),
+                argument5
+            ]
         //This is the udc calldata which encapuslates some extra params + constructor calldata
         let calldata_temp = [
             account_contract_class_hash, // Account class hash
@@ -668,10 +671,10 @@ class ContentViewViewModel: ObservableObject {
         return (tx_response, deployed_moa)
     }
     
-    func deployMoaAccountWithCompletion(participants: [Participant], threshold: Int, completion: @escaping (Result<DeploymentResult, Error>) -> Void) {
+    func deployMoaAccountWithCompletion(participants: [Participant], weights: [Int], threshold: Int, completion: @escaping (Result<DeploymentResult, Error>) -> Void) {
         Task {
             do {
-                let (response, deployed_contract) = try await deployMoaAccount(participants: participants, threshold: threshold)
+                let (response, deployed_contract) = try await deployMoaAccount(participants: participants, weights: weights, threshold: threshold)
                 let deploymentResult = DeploymentResult(response: response, deployedContract: deployed_contract)
                 completion(.success(deploymentResult))
             } catch {

@@ -28,6 +28,7 @@ struct MOASessionFeature {
         var sessionId: String?
         var sessionDeepLink: URL? = nil
         var proposerAddress: String?
+        var threshold: Int?
     }
     
     

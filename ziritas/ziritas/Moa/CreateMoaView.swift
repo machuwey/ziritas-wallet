@@ -28,6 +28,8 @@ struct CreateMoaView: View {
     
     let context = CIContext()
     let filter = CIFilter(name: "CIQRCodeGenerator")
+    @State private var participantWeights: [String: Int] = [:]
+    
     
     let accountStore: StoreOf<AccountFeature>
     let moaSessionStore: StoreOf<MOASessionFeature>
@@ -36,11 +38,18 @@ struct CreateMoaView: View {
     let colorHexCodeAssigned = String(format: "#%06X", Int.random(in: 0x000000...0xFFFFFF))
     
     @State private var dummyParticipant = Participant(
-            id: "0x1234567890abcdef",
-            publicKey: Felt(fromHex: "0x1234567890abcdef")!,
-            username: "DummyUser",
-            colorHexCode: "#FF0000"
-        )
+        id: "0x1234567890abcdef",
+        publicKey: Felt(fromHex: "0x1234567890abcdef")!,
+        username: "DummyUser",
+        colorHexCode: "#FF0000"
+    )
+    
+    @State var sigThreshold: Double = 0.0
+
+    @State private var isEditing = false
+    
+    @State private var selectedMode: String = "Simple"
+    let modes = ["Simple", "Weighted"]
     
     init(accountStore: StoreOf<AccountFeature>, sessionIdToJoin: String? = nil, onDismiss: ((MoaResult) -> Void)? = nil) {
         self.accountStore = accountStore
@@ -71,6 +80,14 @@ struct CreateMoaView: View {
                     .font(.title)
                     .fontWeight(.semibold)
                 WithViewStore(moaSessionStore, observe: { $0 }) { moaSessionStore in
+                    if moaSessionStore.proposerAddress == accountStore.address?.toHex() {
+                        Picker("Mode", selection: $selectedMode) {
+                            ForEach(modes, id: \.self) {
+                                Text($0)
+                            }
+                        }
+                        .pickerStyle(SegmentedPickerStyle())
+                    }
                     
                     if moaSessionStore.wallet_participants.isEmpty || moaSessionStore.wallet_participants.count == 1 {
                         HStack(spacing: 30) {
@@ -92,16 +109,43 @@ struct CreateMoaView: View {
                     } else {
                         ForEach(moaSessionStore.wallet_participants) { participant in
                             HStack {
-                                VStack {
+                                Spacer()
+                                VStack(alignment: .center) {
                                     Image(systemName: "person.crop.circle.fill")
                                         .font(.largeTitle)
                                         .foregroundColor(.white)
                                         .padding()
                                         .background(Color(hex: participant.colorHexCode))
                                         .clipShape(Circle())
+                                        .overlay(
+                                            selectedMode == "Weighted" ?
+                                            Text("\(participantWeights[participant.id] ?? 1)")
+                                                .font(.caption)
+                                                .foregroundColor(.white)
+                                                .padding(4)
+                                                .background(Color.black.opacity(0.7))
+                                                .clipShape(Circle())
+                                                .offset(x: 20, y: -20)
+                                            : nil
+                                        )
                                     // Display "Me" for the current user, otherwise display the participant's username
                                     Text(participant.id == accountStore.address?.toHex() ? "Me" : participant.username)
+                                    
+                                    
                                 }
+                                if selectedMode == "Weighted" && moaSessionStore.proposerAddress == accountStore.address?.toHex() {
+                                    Stepper(value: Binding(
+                                        get: { participantWeights[participant.id] ?? 1 },
+                                        set: { newValue in
+                                            participantWeights[participant.id] = newValue
+                                        }
+                                    ), in: 1...10){
+                                        //
+                                    }
+                                    .labelsHidden()
+                                    .rotationEffect(.degrees(-90)) // Rotate the stepper 90 degrees counterclockwise
+                                }
+                                Spacer()
                             }
                         }
                     }
@@ -128,17 +172,46 @@ struct CreateMoaView: View {
                     if moaSessionStore.proposerAddress == accountStore.address?.toHex() {
                         
                         
-                        Button(action: {
-                                           moaSessionStore.send(.addParticipant(dummyParticipant))
-                                       }) {
-                                           Text("Add Dummy Participant")
-                                               .padding()
-                                               .background(Color.gray)
-                                               .foregroundColor(.white)
-                                               .cornerRadius(10)
-                                       }
-                                    
-                                       
+                        /*
+                         Button(action: {
+                         moaSessionStore.send(.addParticipant(dummyParticipant))
+                         }) {
+                         Text("Add Dummy Participant")
+                         .padding()
+                         .background(Color.gray)
+                         .foregroundColor(.white)
+                         .cornerRadius(10)
+                         }
+                         */
+                       
+                            let weights = moaSessionStore.wallet_participants.map { participantWeights[$0.id] ?? 1 }
+                            let minWeight = weights.min() ?? 1
+                            let maxWeight = max(weights.reduce(0, +), minWeight + 1)
+                            
+                            VStack {
+                                Text("Threshold")
+                                    .font(.headline)
+                                
+                                Slider(
+                                    value: Binding(
+                                        get: { Double(sigThreshold) },
+                                        set: { newValue in
+                                            sigThreshold = min(newValue, Double(maxWeight))
+                                        }
+                                    ),
+                                    in: Double(minWeight)...Double(maxWeight),
+                                    step: 1,
+                                    onEditingChanged: { editing in
+                                        isEditing = editing
+                                    }
+                                )
+                                
+                                Text("\(Int(sigThreshold))")
+                                    .foregroundColor(isEditing ? .red : .blue)
+                            }
+                            .padding()
+                        
+                        
                         
                         Button(action: {
                             ///
@@ -231,23 +304,25 @@ struct CreateMoaView: View {
     }
     
     func deployMoaAccount() {
-    contentViewModel.deployMoaAccountWithCompletion(participants: moaSessionStore.wallet_participants, threshold: 2) { result in
-        switch result {
-        case .success(let deploymentResult):
-            print("Deployment successful: \(deploymentResult.response.transactionHash)")
-            alertTitle = "Success"
-            alertMessage = "The moa account has been created successfully."
-            viewModel.updateDeploymentStatus(sessionID: moaSessionStore.sessionId!, status: "success", account_deployed: deploymentResult.deployedContract)
-            contentViewModel.saveMoaAccount(address: deploymentResult.deployedContract)
-            accountStore.send(.setMoaAccount(deploymentResult.deployedContract))
-        case .failure(let error):
-            print("Deployment failed: \(error.localizedDescription)")
-            alertTitle = "Failure"
-            alertMessage = "There was a problem creating the moa account."
-            viewModel.updateDeploymentStatus(sessionID: moaSessionStore.sessionId!, status: "failure", account_deployed: Felt(clamping: 0))
+        let weights = selectedMode == "Weighted" ? moaSessionStore.wallet_participants.map { participantWeights[$0.id] ?? 1 } : Array(repeating: 1, count: moaSessionStore.wallet_participants.count)
+        
+        contentViewModel.deployMoaAccountWithCompletion(participants: moaSessionStore.wallet_participants, weights: weights, threshold: Int(sigThreshold)) { result in
+            switch result {
+            case .success(let deploymentResult):
+                print("Deployment successful: \(deploymentResult.response.transactionHash)")
+                alertTitle = "Success"
+                alertMessage = "The moa account has been created successfully."
+                viewModel.updateDeploymentStatus(sessionID: moaSessionStore.sessionId!, status: "success", account_deployed: deploymentResult.deployedContract)
+                contentViewModel.saveMoaAccount(address: deploymentResult.deployedContract)
+                accountStore.send(.setMoaAccount(deploymentResult.deployedContract))
+            case .failure(let error):
+                print("Deployment failed: \(error.localizedDescription)")
+                alertTitle = "Failure"
+                alertMessage = "There was a problem creating the moa account."
+                viewModel.updateDeploymentStatus(sessionID: moaSessionStore.sessionId!, status: "failure", account_deployed: Felt(clamping: 0))
+            }
+            showingAlert = true
         }
-        showingAlert = true
-    }
     }
     
     func joinSession(with participant: Participant, sessionId: String) {
@@ -329,8 +404,8 @@ extension CreateMoaView {
                     self.showingAlert = (deploymentStatus == "success")
                     
                     if deploymentStatus == "success",
-                          let accountDeployed = document.data()?["accountDeployed"] as? String,
-                            let accountrDeployedFelt = Felt(fromHex: accountDeployed) {
+                       let accountDeployed = document.data()?["accountDeployed"] as? String,
+                       let accountrDeployedFelt = Felt(fromHex: accountDeployed) {
                         self.accountStore.send(.setMoaAccount(accountrDeployedFelt))
                         contentViewModel.saveMoaAccount(address: accountrDeployedFelt)
                     }
