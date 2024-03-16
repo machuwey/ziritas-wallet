@@ -461,21 +461,26 @@ class ContentViewViewModel: ObservableObject {
                 let temp_acc = StarknetAccount(address: temp_address, signer: signer, provider: provider, cairoVersion: .one)
                 let impl_hash = Felt(fromHex: "0x00816dd0297efc55dc1e7559020a3a825e81ef734b558f03c83325d4da7e6253")
                 //let feeEstimate = try await starknetacc.estimateDeployAccountFeeV3(classHash: account_contract_class_hash, calldata: [public_key_felt], salt: 0)
-                //let feeEstimateV1 = try await temp_acc.estimateDeployAccountFeeV1(classHash: account_contract_class_hash, calldata: [accountStore.public_key_felt!], salt: 0, impl_hash: impl_hash, privateKey: private_key_felt)
                 
-                let feeEstimatev3 = try await temp_acc.estimateDeployAccountFeeV32(classHash: account_contract_class_hash, calldata: [public_key_felt] , salt: 0, privatekey: private_key_felt)
-                //resourceBounds = feeEstimateV2.toResourceBounds()
                 
-                resourceBounds = feeEstimatev3.toResourceBounds()
-                //let deployTransaction = StarknetDeployAccountTransactionV3(signature: [], l1ResourceBounds: resourceBounds.l1Gas, nonce: .zero, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
-                let deployTransactionv3 = StarknetDeployAccountTransactionV3(signature: [], l1ResourceBounds: feeEstimatev3.toResourceBounds().l1Gas, nonce: 0, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
+                
+                let feeEstimateV1 = try await temp_acc.estimateDeployAccountFeeV1(classHash: account_contract_class_hash, calldata: [accountStore.public_key_felt!], salt: 0, impl_hash: impl_hash, privateKey: private_key_felt)
+                //let feeEstimatev3 = try await temp_acc.estimateDeployAccountFeeV32(classHash: account_contract_class_hash, calldata: [public_key_felt] , salt: 0, privatekey: private_key_felt)
+                
+                
+                let maxFee = feeEstimateV1.toMaxFee()
+                //resourceBounds = feeEstimatev3.toResourceBounds()
+                
+                
+                let deployTransactionV1 = StarknetDeployAccountTransactionV1(signature: [], maxFee: maxFee, nonce: .zero, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
+                //let deployTransactionv3 = StarknetDeployAccountTransactionV3(signature: [], l1ResourceBounds: feeEstimatev3.toResourceBounds().l1Gas, nonce: 0, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
                 
                 
                 
                 let chaindId = try! await provider.getChainId()
                 
                 ///-------------------
-                let hash = StarknetTransactionHashCalculator.computeHash(of: deployTransactionv3, chainId: chainId)
+                let hash = StarknetTransactionHashCalculator.computeHash(of: deployTransactionV1, chainId: chainId)
                 
                 
                 let signatureOnHash = try StarknetCurve.sign(privateKey: private_key_felt, hash: hash)
@@ -518,7 +523,7 @@ class ContentViewViewModel: ObservableObject {
                 
                 
                 //let deployTransaction_signed = StarknetDeployAccountTransactionV3(signature: signature, l1ResourceBounds: resourceBounds.l1Gas, nonce: .zero, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
-                let deployTransaction_signed = StarknetDeployAccountTransactionV3(signature: fullSignature, l1ResourceBounds: feeEstimatev3.toResourceBounds().l1Gas, nonce: 0, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
+                let deployTransaction_signed = StarknetDeployAccountTransactionV1(signature: fullSignature, maxFee: maxFee, nonce: 0, contractAddressSalt: 0, constructorCalldata: [public_key_felt], classHash: account_contract_class_hash)
                 let tx_response = try await provider.addDeployAccountTransaction(deployTransaction_signed)
                 print(tx_response)
                 ///Wait 5 seconds for the transaction to be mined, make a recursive call to the function to proceed with the funds transfer
