@@ -1,5 +1,6 @@
 import { NextResponse, NextRequest } from 'next/server';
-
+import { addDoc, collection } from "firebase/firestore";
+import {db} from "../../../../firebaseconfig";
 export const config = {
   api: {
     externalResolver: true,
@@ -27,6 +28,7 @@ export async function POST(
     verification_level: reqBody.verification_level,
     action: reqBody.action,
     signal: reqBody.signal,
+    walletAddress: reqBody.walletAddress
   };
 
   console.log("Sending request to World ID /verify endpoint:\n", body);
@@ -51,6 +53,18 @@ export async function POST(
       "Credential verified! This user's nullifier hash is: ",
       wldResponse.nullifier_hash
     );
+
+    try {
+      const docRef = await addDoc(collection(db, "verifiedWallets"), {
+        nullifierHash: wldResponse.nullifier_hash,
+        walletAddress: reqBody.walletAddress,
+      });
+      console.log("Stored in Firebase with document ID: ", docRef.id);
+    } catch (error) {
+      console.error("Error storing in Firebase: ", error);
+    }
+    
+    //Store in firebase here
     return NextResponse.json({
       code: "success",
       detail: "This action verified correctly!",
@@ -62,3 +76,4 @@ export async function POST(
     });
   }
 }
+

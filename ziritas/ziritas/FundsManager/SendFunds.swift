@@ -40,7 +40,7 @@ struct SendFundsView: View {
     
     var body: some View {
         VStack {
-            Text("Send Funds for \(token.ticker)")
+            Text("Send \(token.ticker)")
                 .font(.title)
             
             Picker("Percentage", selection: $selectedPercentage) {
