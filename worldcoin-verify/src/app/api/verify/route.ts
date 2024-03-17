@@ -1,11 +1,7 @@
 import { NextResponse, NextRequest } from 'next/server';
 import { addDoc, collection } from "firebase/firestore";
 import {db} from "../../../../firebaseconfig";
-export const config = {
-  api: {
-    externalResolver: true,
-  },
-};
+
 
 export type VerifyReply = {
   code: string;
