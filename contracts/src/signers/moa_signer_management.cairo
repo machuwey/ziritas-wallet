@@ -30,7 +30,7 @@ mod MoaSignerManagement {
 
     #[storage]
     struct Storage {
-        vote_weights: LegacyMap<ContractAddress, u32>
+        signatureWeights: LegacyMap<ContractAddress, u32>
     }
 
     #[event]
@@ -64,10 +64,10 @@ mod MoaSignerManagement {
             GetMoaSignersResponse { moa: get_signers_by_type(SignerType::MOA) }
         }
 
-        fn getVoteWeightFor(
+        fn getSignatureWeightFor(
             self: @ComponentState<TContractState>, signer: ContractAddress
         ) -> u32  {
-            self.vote_weights.read(signer)
+            self.signatureWeights.read(signer)
         }
 
         /// @param signers An array of pairs representing the external
@@ -184,7 +184,7 @@ mod MoaSignerManagement {
                         address_dup_tracker.insert(address.into(), true);
                         add_signer(SignerType::MOA, guid);
                         //Add weight
-                        self.vote_weights.write(address, weight);
+                        self.signatureWeights.write(address, weight);
                         self
                             .emit(
                                 OwnerAdded {

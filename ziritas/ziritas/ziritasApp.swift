@@ -48,7 +48,7 @@ struct ZiritasApp: App {
                         FeedView(accountStore: ZiritasApp.accountStore)
                             .tabItem {
                                 Image(systemName: "newspaper.fill")
-                                Text("Feed")
+                                Text("Pending Signatures")
                             }
                     }
                     .sheet(isPresented: $showingQRView) {

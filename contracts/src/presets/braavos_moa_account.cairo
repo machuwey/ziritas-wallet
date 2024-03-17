@@ -299,7 +299,7 @@ mod BraavosMoaAccount {
             while i < signers
                 .len() {
                     let signer = signers.at(i);
-                    let weight = self.moa_signer_management.getVoteWeightFor(*signer.signer.address);
+                    let weight = self.moa_signer_management.getSignatureWeightFor(*signer.signer.address);
                     total_weight += weight;
                     i = i + 1;
                 };
