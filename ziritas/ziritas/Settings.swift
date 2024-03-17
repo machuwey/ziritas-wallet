@@ -1,12 +1,14 @@
 import SwiftUI
 import ComposableArchitecture
-
+import SafariServices
 struct SettingsView: View {
     @State private var showingImportAlert = false
     @State private var publicKey: String = ""
     @State private var privateKey: String = ""
     @State var selectedAccount: WalletAccount?
     @State var showMoaCreation: Bool = false
+    @State private var isPresentWebView = false
+    
     let accountStore: StoreOf<AccountFeature>
     let viewModel: ContentViewViewModel
     init(acc_store: StoreOf<AccountFeature>){
@@ -42,6 +44,9 @@ struct SettingsView: View {
                         }
                     }
                     
+                    Button("Present as full screen cover") {
+                        isPresentWebView = true
+                    }
                     
                     
                     Button(action: {
@@ -53,18 +58,18 @@ struct SettingsView: View {
                         }
                     }
                     HStack {
-                           Text(accountStore.moaAccountAdress?.toHex() ?? "No MOA account")
-                           
-                           Spacer()
-                           
-                           Button(action: {
-                               UIPasteboard.general.string = accountStore.moaAccountAdress?.toHex()
-                           }) {
-                               Image(systemName: "doc.on.doc")
-                           }
-                           .padding(.horizontal, 8)
-                       }
-                       .padding()
+                        Text(accountStore.moaAccountAdress?.toHex() ?? "No MOA account")
+                        
+                        Spacer()
+                        
+                        Button(action: {
+                            UIPasteboard.general.string = accountStore.moaAccountAdress?.toHex()
+                        }) {
+                            Image(systemName: "doc.on.doc")
+                        }
+                        .padding(.horizontal, 8)
+                    }
+                    .padding()
                     
                     Button(action: {
                         showMoaCreation = true
@@ -110,7 +115,12 @@ struct SettingsView: View {
             }
             .navigationTitle("Settings")
         }
+        .fullScreenCover(isPresented: $isPresentWebView) {
+            SafariView(url: URL(string: "https://verify.ziritas.com/account/\(accountStore.address)")!)
+                .ignoresSafeArea()
+        }
     }
+    
     
     
     func saveMoaAccount() {
@@ -140,4 +150,18 @@ struct ImportWalletView: View {
         }
         .padding()
     }
+}
+
+struct SafariView: UIViewControllerRepresentable {
+    
+    let url: URL
+    
+    func makeUIViewController(context: UIViewControllerRepresentableContext<SafariView>) -> SFSafariViewController {
+        return SFSafariViewController(url: url)
+    }
+    
+    func updateUIViewController(_ uiViewController: SFSafariViewController, context: UIViewControllerRepresentableContext<SafariView>) {
+        
+    }
+    
 }

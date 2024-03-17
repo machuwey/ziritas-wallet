@@ -63,7 +63,7 @@ struct CreateMoaView: View {
                 MOASessionFeature()._printChanges()
             }
         } else {
-            self.moaSessionStore = Store(initialState: MOASessionFeature.State(proposerAddress: address)){
+            self.moaSessionStore = Store(initialState: MOASessionFeature.State()){
                 MOASessionFeature()._printChanges()
             }
         }
