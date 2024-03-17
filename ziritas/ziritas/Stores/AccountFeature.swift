@@ -40,7 +40,7 @@ struct AccountFeature {
         ///Moa related stuff
         var moaAccountAdress: Felt?
         ///Starknet related stuf
-        let provider = StarknetProvider(url: "https://starknet-sepolia.blastapi.io/fec79bb2-ce39-4a58-8668-a96ce919142e/rpc/v0_7")
+        let provider = StarknetProvider(url: "https://free-rpc.nethermind.io/sepolia-juno/")
 
     }
     
