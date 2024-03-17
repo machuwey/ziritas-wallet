@@ -57,6 +57,10 @@ struct SettingsView: View {
                             Text("Add Account")
                         }
                     }
+                }
+                
+                
+                Section(header: Text("Multi Owner Accounts")) {
                     HStack {
                         Text(accountStore.moaAccountAdress?.toHex() ?? "No MOA account")
                         
@@ -76,12 +80,9 @@ struct SettingsView: View {
                     }){
                         Text("Create Moa Account")
                     }
-                    .sheet(isPresented: $showMoaCreation) {
-                        CreateMoaView( accountStore: accountStore, sessionIdToJoin: nil, onDismiss: { reason in
-                            showMoaCreation = false //Dismiss the screen
-                        })
-                    }
+                    
                 }
+                
       
                 
                 Section {
@@ -99,6 +100,11 @@ struct SettingsView: View {
         .fullScreenCover(isPresented: $isPresentWebView) {
             SafariView(url: URL(string: "https://verify.ziritas.com/account/\(accountStore.address)")!)
                 .ignoresSafeArea()
+        }
+        .sheet(isPresented: $showMoaCreation) {
+            CreateMoaView( accountStore: accountStore, sessionIdToJoin: nil, onDismiss: { reason in
+                showMoaCreation = false //Dismiss the screen
+            })
         }
     }
     
