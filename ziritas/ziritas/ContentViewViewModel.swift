@@ -576,8 +576,8 @@ class ContentViewViewModel: ObservableObject {
         return tx_response
     }
     
-    func deployMoaAccount(participants: [Participant], weights: [Int], threshold: Int) async throws -> (StarknetInvokeTransactionResponse, Felt) {
-        guard let account_contract_class_hash = Felt(fromHex: "0x00ca6d503d0136b93b35870e6d0ad17d809402882b9cbca0b43a1f7c33f8c1bd") else {
+    func deployMoaAccountWeighted(participants: [Participant], weights: [Int], threshold: Int) async throws -> (StarknetInvokeTransactionResponse, Felt) {
+        guard let account_contract_class_hash = Felt(fromHex: "0x04d18b2aa01bcf19a9f094bde65169a2bc85668faf4759c07d58187b246f7fa3") else {
             throw TransactionError.errorParsinFelt
         }
         
@@ -598,7 +598,7 @@ class ContentViewViewModel: ObservableObject {
         let participant1: Participant = participants[1]
         guard let participant0_address: Felt = Felt(fromHex: participant0.id) else { throw TransactionError.errorParsinFelt }
         guard let participant1_address: Felt = Felt(fromHex: participant1.id) else { throw TransactionError.errorParsinFelt }
-        let numbahOfParticipants: Felt = Felt(clamping: 2)
+        let numberOfParticipants: Felt = Felt(clamping: 2)
         let argument1:Felt = participant0_address
         let argument2:Felt = participant0.publicKey
         let weight0: Felt = Felt(clamping: weights[0])
@@ -610,7 +610,7 @@ class ContentViewViewModel: ObservableObject {
         let randomSalt = Int.random(in: 1...Int.max) // Generate a random salt
         
         let constructor_calldata = [
-                numbahOfParticipants,
+                numberOfParticipants,
                 argument1,
                 argument2,
                 weight0,
@@ -625,7 +625,7 @@ class ContentViewViewModel: ObservableObject {
             Felt(clamping: randomSalt), // Salt
             Felt(clamping: 1), // Unique
             Felt(clamping: 8), // Data Legnth
-            numbahOfParticipants,
+            numberOfParticipants,
             argument1,
             argument2,
             weight0,
@@ -676,10 +676,114 @@ class ContentViewViewModel: ObservableObject {
         return (tx_response, deployed_moa)
     }
     
+    func deployMoaAccountSimple(participants: [Participant], threshold: Int) async throws -> (StarknetInvokeTransactionResponse, Felt) {
+        guard let account_contract_class_hash = Felt(fromHex: "0x04ec7e8c3ece2ae9652611e1c329ad3d492aa52f23b681d50bdc65085f97dd59") else {
+            throw TransactionError.errorParsinFelt
+        }
+        
+        guard let privateKeyData = KeychainHelper.standard.retrievePrivateKey(service: "com.strapex.wallet", account: keychainAccountString!),
+              let private_key_felt = Felt(privateKeyData) else {
+            throw TransactionError.privateKeyNotFound
+        }
+        guard let address_felt = accountStore.address, let provider = accountStore.provider else {
+            throw TransactionError.privateKeyNotFound
+        }
+        
+        let signer = StarkCurveSigner(privateKey: private_key_felt)!
+        let starknetacc = StarknetAccount(address: address_felt, signer: signer, provider: provider, cairoVersion: .one)
+        let chainId = try await provider.getChainId()
+        
+        
+        let participant0: Participant = participants[0]
+        let participant1: Participant = participants[1]
+        guard let participant0_address: Felt = Felt(fromHex: participant0.id) else { throw TransactionError.errorParsinFelt }
+        guard let participant1_address: Felt = Felt(fromHex: participant1.id) else { throw TransactionError.errorParsinFelt }
+        let numbahOfParticipants: Felt = Felt(clamping: 2)
+        let argument1:Felt = participant0_address
+        let argument2:Felt = participant0.publicKey
+        //let weight0: Felt = Felt(clamping: weights[0])
+        let argument3:Felt = participant1_address
+        let argument4:Felt = participant1.publicKey
+        //let weight1: Felt = Felt(clamping: weights[1])
+        let argument5:Felt = Felt(clamping: threshold) //Threshold
+        let contractAdress:Felt = Felt(fromHex: "0x041a78e741e5af2fec34b695679bc6891742439f7afb8484ecd7766661ad02bf")!
+        let randomSalt = Int.random(in: 1...Int.max) // Generate a random salt
+        
+        let constructor_calldata = [
+                numbahOfParticipants,
+                argument1,
+                argument2,
+               // weight0,
+                argument3,
+                argument4,
+                //weight1,
+                argument5
+            ]
+        //This is the udc calldata which encapuslates some extra params + constructor calldata
+        let calldata_temp = [
+            account_contract_class_hash, // Account class hash
+            Felt(clamping: randomSalt), // Salt
+            Felt(clamping: 1), // Unique
+            Felt(clamping: 8), // Data Legnth
+            numbahOfParticipants,
+            argument1,
+            argument2,
+            //weight0,
+            argument3,
+            argument4,
+            //weight1,
+            argument5
+        ]
+        let nonce = try await getNonce(address: address_felt, provider: provider)
+        let call = StarknetCall(contractAddress: contractAdress,
+                                entrypoint: starknetSelector(from: "deployContract"),
+                                calldata: calldata_temp)
+        
+        let feeEstimate = try await starknetacc.estimateFeeV1(calls: [call], nonce: nonce)
+        
+        let maxFee = feeEstimate.toMaxFee()
+        let calldata = starknetCallsToExecuteCalldata(calls: [call], cairoVersion: .one)
+        
+        let transaction = StarknetInvokeTransactionV1(senderAddress: address_felt, calldata: calldata, signature: [], maxFee: maxFee, nonce: nonce, forFeeEstimation: false)
+        
+        let hash = StarknetTransactionHashCalculator.computeHash(of: transaction, chainId: chainId)
+        
+        let signature = try signer.sign(transactionHash: hash)
+        
+        let transaction_signed = StarknetInvokeTransactionV1(senderAddress: address_felt, calldata: calldata, signature: signature, maxFee: maxFee, nonce: nonce, forFeeEstimation: false)
+        
+        let address = StarknetContractAddressCalculator.calculateFrom(classHash: account_contract_class_hash, calldata: constructor_calldata, salt: Felt(clamping: randomSalt), deployerAddress: contractAdress)
+        let tx_response = try await provider.addInvokeTransaction(transaction_signed)
+        //let tx_receipt = try await provider.getTransactionReceiptBy(hash: tx_response.transactionHash)
+     
+        
+        let deployed_moa: Felt
+        do {
+            if let fetched_moa = try await fetchTransactionReceipt(provider: accountStore.provider!, transactionHash: tx_response.transactionHash) {
+                deployed_moa = fetched_moa
+            } else {
+                // Handle the case where fetched_moa is nil, perhaps by setting a default value or throwing an error
+                print("Transaction receipt not found.")
+                deployed_moa = Felt(clamping: 0)
+            }
+            print(tx_response.transactionHash)
+        } catch {
+            // Handle any errors from fetching the transaction receipt
+            print(error)
+        }
+        print(tx_response.transactionHash)
+        
+        return (tx_response, deployed_moa)
+    }
+    
+    
+    
+    
+    
     func deployMoaAccountWithCompletion(participants: [Participant], weights: [Int], threshold: Int, completion: @escaping (Result<DeploymentResult, Error>) -> Void) {
         Task {
             do {
-                let (response, deployed_contract) = try await deployMoaAccount(participants: participants, weights: weights, threshold: threshold)
+                let (response, deployed_contract) = try await deployMoaAccountWeighted(participants: participants, weights: weights, threshold: threshold)
                 let deploymentResult = DeploymentResult(response: response, deployedContract: deployed_contract)
                 completion(.success(deploymentResult))
             } catch {
@@ -755,7 +859,7 @@ class ContentViewViewModel: ObservableObject {
             Felt(clamping: 3 * BigUInt(10).power(17)) // MAX_SIGN_FEE_STRK
         ])
         
-        let tranferAm = "0.0001"
+        let tranferAm = "0.001"
         guard let amount = convertToWei(amount: tranferAm) else {
             throw TransactionError.converionError
         }
@@ -764,7 +868,7 @@ class ContentViewViewModel: ObservableObject {
         let destination_felt = Felt(fromHex: "0x043263A3Bfb836ef2b8aBBb7818897F3993466811F537d637648bF4a2298Fa03")!
         //WARN: Delete for later
         let callToExecute = StarknetCall(
-            contractAddress: Felt(fromHex: "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d")!,
+            contractAddress: Felt(fromHex: "0x049D36570D4e46f48e99674bd3fcc84644DdD6b96F7C741B1562B82f9e004dC7")!,
             entrypoint: starknetSelector(from: "transfer"),
             calldata: [destination_felt, low.toFelt()!, high.toFelt()!]
         )
@@ -810,11 +914,16 @@ class ContentViewViewModel: ObservableObject {
          */
 
         let transaction = StarknetInvokeTransactionV1(senderAddress: moaAccountAdress, calldata: calldata, signature: [], maxFee: maxFee!, nonce: nonce, forFeeEstimation: false)
-
-        let hash = StarknetTransactionHashCalculator.computeHash(of: transaction, chainId: chainId)
+        
+        
+        let usersGuid = calculateGuid(address: address_felt, publicKey: public_key_felt)
+        let moaTxHash = calculateMoaTxHash(proposerGuid: usersGuid, nonce: nonce, calls: calls, contractAddress: moaAccountAdress)
+        //let hash = StarknetTransactionHashCalculator.computeHash(of: transaction, chainId: chainId)
 
   
-        let hashSignature = try StarknetCurve.sign(privateKey: private_key_felt, hash: hash)
+        let hashSignature = try StarknetCurve.sign(privateKey: private_key_felt, hash: moaTxHash)
+        
+      
         
         let fullSignature: [Felt] = [
         0,
@@ -822,7 +931,9 @@ class ContentViewViewModel: ObservableObject {
         public_key_felt,
         hashSignature.r,
         hashSignature.s,
-        0
+        2,
+        hashSignature.r,
+        hashSignature.s
         ]
     
 
@@ -871,6 +982,11 @@ extension ContentViewViewModel {
         let multiplied = (decimal * weiMultiplier)
         return BigUInt(multiplied.description)
     }
+    
+    func calculateGuid(address: Felt, publicKey: Felt) -> Felt {
+            let serialized = [address, publicKey]
+        return StarknetPoseidon.poseidonHash(serialized)
+        }
 }
 
 enum TransactionError: Error {
@@ -899,4 +1015,58 @@ struct DeploymentResult {
     let response: StarknetInvokeTransactionResponse
     let deployedContract: Felt
 }
+
+
+
+func calculateMoaTxHash(proposerGuid: Felt, nonce: Felt, calls: [StarknetCall], contractAddress: Felt) -> Felt {
+    return calculateSnip12Hash(domainName: "MOA.tx_hash", version: 1, messageHash: hashMoaTx(proposerGuid: proposerGuid, nonce: nonce, calls: calls),contractAddress: contractAddress)
+}
+
+func hashMoaTx(proposerGuid: Felt, nonce: Felt, calls: [StarknetCall]) -> Felt {
+    var hashedCalls: [Felt] = []
+    
+    for call in calls {
+        hashedCalls.append(hashCall(call: call))
+    }
+    
+    let moaTxTypeHash = starknetSelector(from: "\"MOATransaction\"(\"Proposer Guid\":\"felt\",\"Nonce\":\"felt\",\"Calls\":\"Call*\")\"Call\"(\"To\":\"ContractAddress\",\"Selector\":\"selector\",\"Calldata\":\"felt*\")")
+    
+    return StarknetPoseidon.poseidonHash([moaTxTypeHash, proposerGuid, nonce, StarknetPoseidon.poseidonHash(hashedCalls)])
+}
+
+func calculateSnip12Hash(domainName: String, version: Int, messageHash: Felt, contractAddress: Felt) -> Felt {
+  
+    return StarknetPoseidon.poseidonHash([
+        Felt.fromShortString("StarkNet Message")!,
+        hashDomain(domainName: domainName, version: Felt(clamping: version)),
+        contractAddress,
+        messageHash
+    ])
+}
+
+func hashDomain(domainName: String, version: Felt) -> Felt {
+    let starknetDomainTypeHash = starknetSelector(from: "\"StarknetDomain\"(\"name\":\"shortstring\",\"version\":\"shortstring\",\"chainId\":\"shortstring\",\"revision\":\"shortstring\")")
+
+    let chainId = Felt.fromShortString("SN_SEPOLIA")!
+    let revision = Felt(1)
+    
+    return StarknetPoseidon.poseidonHash([
+        starknetDomainTypeHash,
+        Felt.fromShortString(domainName)!,
+        version,
+        chainId,
+        revision
+    ])
+}
+
+func hashCall(call: StarknetCall) -> Felt {
+    let callTypeHash = starknetSelector(from: "\"Call\"(\"To\":\"ContractAddress\",\"Selector\":\"selector\",\"Calldata\":\"felt*\")")
+    return StarknetPoseidon.poseidonHash([
+        callTypeHash,
+        call.contractAddress,
+        call.entrypoint,
+        StarknetPoseidon.poseidonHash(call.calldata)
+    ])
+}
+
 
