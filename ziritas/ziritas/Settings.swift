@@ -44,7 +44,7 @@ struct SettingsView: View {
                         }
                     }
                     
-                    Button("Present as full screen cover") {
+                    Button("Verify Uniqness with worldcoin") {
                         isPresentWebView = true
                     }
                     
@@ -82,20 +82,7 @@ struct SettingsView: View {
                         })
                     }
                 }
-                
-                Section(header: Text("Display"),
-                        footer: Text("System settings will override Dark mode and use the current device theme")) {
-                    
-                    Toggle(isOn: .constant(true),
-                           label: {
-                        Text("Dark mode")
-                    })
-                    
-                    Toggle(isOn: .constant(true),
-                           label: {
-                        Text("Use system settings")
-                    })
-                }
+      
                 
                 Section {
                     Button(action: {
@@ -106,12 +93,6 @@ struct SettingsView: View {
                         Text("Test Moa Execution")
                     }
                 }
-                
-                Section {
-                    Label("Follow us on twitter", systemImage: "link")
-                }
-                .foregroundColor(.black)
-                .font(.system(size: 16, weight: .semibold))
             }
             .navigationTitle("Settings")
         }
